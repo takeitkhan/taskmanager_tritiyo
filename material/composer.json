@@ -1,0 +1,26 @@
+{
+    "name": "tritiyo/material",
+    "description": "Material manage on Material Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NoushadNipun",
+            "email": "nipun@tritiyo.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tritiyo\\Material\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tritiyo\\Material\\MaterialServiceProvider"
+            ]
+        }
+    }
+}

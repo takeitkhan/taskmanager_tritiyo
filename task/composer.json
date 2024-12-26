@@ -1,0 +1,26 @@
+{
+    "name": "tritiyo/task",
+    "description": "Task manage on Task Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NoushadNipun",
+            "email": "nipun@tritiyo.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tritiyo\\Task\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tritiyo\\Task\\TaskServiceProvider"
+            ]
+        }
+    }
+}

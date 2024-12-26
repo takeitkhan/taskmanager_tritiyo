@@ -1,0 +1,27 @@
+{
+    "name": "tritiyo/project",
+    "description": "Project manage on project module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NoushadNipun",
+            "email": "nipun@tritiyo.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tritiyo\\Project\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tritiyo\\Project\\ProjectServiceProvider"
+            ]
+        }
+    }
+}
+

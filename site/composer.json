@@ -1,0 +1,26 @@
+{
+    "name": "tritiyo/site",
+    "description": "Site manage on Site Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nipunnoushad",
+            "email": "nipun@tritiyo.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tritiyo\\Site\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tritiyo\\Site\\SiteServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "tritiyo/vehicle",
+    "description": "Vehicle manage on Vehicle Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NoushadNipun",
+            "email": "nipun@tritiyo.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tritiyo\\Vehicle\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tritiyo\\Vehicle\\VehicleServiceProvider"
+            ]
+        }
+    }
+}
